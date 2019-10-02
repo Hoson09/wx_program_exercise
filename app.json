@@ -1,12 +1,43 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/interview/interview"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "George_Hu_exercise",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/icon/manager.png",
+        "selectedIconPath": "assets/icon/manager1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "伙伴",
+        "iconPath": "assets/icon/friends.png",
+        "selectedIconPath": "assets/icon/friends1.png"
+      },
+      {
+        "pagePath": "pages/interview/interview",
+        "text": "简历",
+        "iconPath": "assets/icon/comment.png",
+        "selectedIconPath": "assets/icon/comment1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "地址",
+        "iconPath": "assets/icon/map-marked.png",
+        "selectedIconPath": "assets/icon/map-marked1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

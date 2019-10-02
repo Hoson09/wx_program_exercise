@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="header-title">
+    <text>我的简历</text>
+  </view>
+  <view class="content-bd">
+    <view class="title">
+      <text class="icon iconfont icon-manager"></text> 姓名:
+    </view>
+    <view class="content">HuYi</view>
+  </view>
+  <view class="content-bd">
+    <view class="title">
+      <text class="icon iconfont icon-photo"></text> 照片:
+    </view>
+    <view class="content user">
+      <view class="user-photo">
+        <image class="img-box" src="/assets/lcf.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="content-bd">
+    <view class="title">
+      <text class="icon iconfont icon-phone"></text> 电话:
+    </view>
+    <view class="content">{{phone}}</view>
+  </view>
+  <view class="content-bd">
+    <view class="title">
+      <text class="icon iconfont icon-map-marked"></text> 地址:
+    </view>
+    <view class="content">{{address}}</view>
+  </view>
+</view>
